@@ -12,5 +12,4 @@ public class Test extends TestCase{
 	public void testPlus() {
 		assertTrue(calculator.calculate("+", 1, 1) == 2);
 	}
-
 }
