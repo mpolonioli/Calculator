@@ -1,16 +1,16 @@
 package test;
 
-import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
 import calculator.Calculator;
 
-public class Test {
+public class Test extends TestCase{
 	
 	private Calculator calculator = new Calculator();
 
 	@org.junit.Test
 	public void testPlus() {
-		assert(calculator.calculate("+", 1, 1) == 2);
+		assertTrue(calculator.calculate("+", 1, 1) == 2);
 	}
 
 }
