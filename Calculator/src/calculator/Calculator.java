@@ -8,6 +8,7 @@ public class Calculator {
 	
 	private void initHashMap(){
 		OperationHashMap.operation.put("+", Plus.plus);
+		OperationHashMap.operation.put("-", Minus.minus);
 	}
 	
 	public int calculate(String operator, int operand_1, int operand_2){
