@@ -1,8 +1,7 @@
 package test;
 
-import junit.framework.TestCase;
-
 import calculator.Calculator;
+import junit.framework.TestCase;
 
 public class Test extends TestCase{
 	
