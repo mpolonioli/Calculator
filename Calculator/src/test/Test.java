@@ -2,11 +2,15 @@ package test;
 
 import static org.junit.Assert.*;
 
+import calculator.Calculator;
+
 public class Test {
+	
+	private Calculator calculator = new Calculator();
 
 	@org.junit.Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testPlus() {
+		assert(calculator.calculate("+", 1, 1) == 2);
 	}
 
 }
