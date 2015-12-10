@@ -1,14 +1,14 @@
 package test;
 
 import calculator.Calculator;
-import junit.framework.TestCase;
 
-public class Test extends TestCase{
+public class Test {
 	
 	private Calculator calculator = new Calculator();
 
 	@org.junit.Test
 	public void testPlus() {
-		assertTrue(calculator.calculate("+", 1, 1) == 2);
+		assert(calculator.calculate("+", 1, 1) == 2);
 	}
+
 }
