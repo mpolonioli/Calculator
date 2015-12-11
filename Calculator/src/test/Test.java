@@ -16,5 +16,4 @@ public class Test extends TestCase{
 	public void testMinus() {
 		assertTrue(calculator.calculate("-", 1, 1) == 0);
 	}
-
 }
